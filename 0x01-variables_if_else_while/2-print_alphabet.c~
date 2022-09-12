@@ -1,0 +1,16 @@
+#include <stdio.h>
+/**
+ * main - entry point
+ *
+ * print alphabet in lower case
+ *
+ * Return; always returns 0
+ */
+int main()
+{
+char a;
+for (a = 'a'; a <= 'z' ; a++)
+putchar(a);
+putchar('\n');
+return (0);
+}
