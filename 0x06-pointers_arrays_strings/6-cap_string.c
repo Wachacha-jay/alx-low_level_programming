@@ -9,8 +9,8 @@
 int _index0f(char a)
 {
 	int i;
-	char capArr[13] = {'\n', '\t', ' ', '.', ',', ';', ',', '!', '?', '(',')', '{', '}'};
-	
+	char capArr[13] = {'\n', '\t', ' ', '.', ',', ';', ',', '!', '?', '(', ')', '{
+', '}'};
 	for (i = 0; i < 13; i++)
 	{
 		if (capArr[i] == a)
@@ -23,13 +23,13 @@ int _index0f(char a)
  *
  * @s: string
  *
- * Return; the string capitalized
+ * Return: the string capitalized
  */
 char *cap_string(char *s)
 {
 	int i;
 
-	for (i =0; s[i] != '\0'; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (_index0f(s[i]))
 			continue;
